@@ -1,0 +1,68 @@
+
+body {
+	font-family: 'Kanit', sans-serif;
+}
+img{
+	width: 100%;
+}
+.head-center {
+	margin: auto;
+}
+.cut-img-theme {
+	overflow: hidden;
+    height: 470px;
+    box-shadow: 7px 5px 0px 0px #eee;
+}
+.flix-overfolw-hight {
+	margin-top: 30px;
+    overflow: hidden;
+    height: 65px;
+}
+.flix-hight-name-theme {
+	overflow: hidden;
+    height: 25px;
+}
+.img-coming-soon {
+	opacity: 0.2;
+    filter: alpha(opacity=40);
+}
+.color-coming-soon {
+	background-color: #000;
+}
+.color-sme {
+	background-color: #eee;
+}
+.text-margin {
+	 margin-top: 40px;
+}
+.logo {
+	width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+@media (max-width: 1366px){
+
+}
+@media (max-width: 1024px){
+
+}
+@media (max-width: 768px){
+}
+
+/*--------- Profile-setting ----------------*/
+}
+
+@media (max-width: 414px){
+
+}
+@media (max-width: 375px) {
+
+    }
+@media (max-width: 320px){
+
+}
