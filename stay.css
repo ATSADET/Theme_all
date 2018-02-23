@@ -66,13 +66,15 @@ img {
 
 .cut-img-theme:hover img {
 	position: relative;
-  transform: translatey(calc(-45%));
-}
+  	transform: translatey(calc(-100%));
 
+}
 .cut-img-theme-grey:hover img {
 	position: relative;
-	transform: translatey(calc(-50% + 160px));
+	transform: translatey(calc(-100% + 470px));
 }
+
+
 
 @media (max-width: 1366px){
 
