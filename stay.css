@@ -2,6 +2,8 @@
 body {
 	font-family: 'Kanit', sans-serif;
 }
+
+
 img{
 	width: 100%;
 }
@@ -85,7 +87,7 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #00000069;
+  background-color: #ffffff8c;
 }
 
 .overlay-coming-soon{
@@ -113,8 +115,8 @@ img {
 	top:46%;
 	right:30%;
 	left:30%;
-	border:1px solid #4CAF50;
-	background-color: #00000069;
+	border:1px solid white;
+	background-color: red;
 	color: white;
 	font-size: 16px;
 	padding: 0px 0px;
@@ -126,11 +128,12 @@ img {
 	top:46%;
 	right:30%;
 	left:30%;
-	border:1px solid white;
-	background-color: #00000069;
-	color: #4CAF50;
+	border:1px solid red;
+	background-color: white;
+	color: red;
 	font-size: 16px;
 	padding: 0px 0px;
+  transition: background-color 1s;
 }
 
 .coming-soon{
@@ -142,7 +145,7 @@ img {
 	border:1px solid #4CAF50;
 	color: white;
 	font-size: 16px;
-	10px 0px;
+	padding:0px 0px;
 }
 
 .coming-soon:hover{
@@ -155,14 +158,14 @@ img {
 	color: #4CAF50;
 	font-size: 16px;
 	10px 0px;
+  transition: background-color 1s;
 }
 
 .hover-text{
 	margin:3px;
 	cursor:pointer;
+
 }
-
-
 
 
 
