@@ -8,11 +8,27 @@ img{
 .head-center {
 	margin: auto;
 }
+
 .cut-img-theme {
-	overflow: hidden;
+		overflow: hidden;
     height: 470px;
-    box-shadow: 7px 5px 0px 0px #eee;
+    box-shadow: 7px 6px 16px 0px rgba(0, 0, 0, 0.2);
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		margin: 0 auto;
 }
+
+.cut-img-theme-grey {
+	overflow: hidden;
+	height: 470px;
+	box-shadow: 7px 6px 16px 0px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
 .flix-overfolw-hight {
 	margin-top: 30px;
     overflow: hidden;
@@ -35,15 +51,28 @@ img{
 .text-margin {
 	 margin-top: 40px;
 }
+
 .logo {
 	width: 20%;
-    margin: auto;
-    margin-top: 30px;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+  transition: transform 2s ease-out;
+}
 
+.cut-img-theme:hover img {
+	position: relative;
+  transform: translatey(calc(-45%));
+}
 
-
+.cut-img-theme-grey:hover img {
+	position: relative;
+	transform: translatey(calc(-50% + 160px));
+}
 
 @media (max-width: 1366px){
 
