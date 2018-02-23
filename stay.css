@@ -142,7 +142,7 @@ img {
 	top:46%;
 	right:30%;
 	left:30%;
-	border:1px solid #4CAF50;
+	border:1px solid red;
 	color: white;
 	font-size: 16px;
 	padding:0px 0px;
@@ -155,7 +155,7 @@ img {
 	right:30%;
 	left:30%;
 	border:1px solid white;
-	color: #4CAF50;
+	color: red;
 	font-size: 16px;
 	10px 0px;
   transition: all 1s;
